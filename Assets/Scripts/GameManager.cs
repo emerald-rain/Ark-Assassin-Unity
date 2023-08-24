@@ -536,7 +536,7 @@ public class GameManager : E_MonoBehaviour
 		});
 		delayFunction(4.5f, delegate
 		{
-			rewardlevelPass.SetActive(value: true);
+			rewardlevelPass.SetActive(value: false);
 		});
 		hero.OnDisableProtect();
 		SoundManager.ins.bg_audioSource.Stop();
