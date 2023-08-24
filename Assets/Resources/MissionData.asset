@@ -1,0 +1,636 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff67e151b0bf862198ff439956c7748a, type: 3}
+  m_Name: "MissionData"
+  m_EditorClassIdentifier: 
+  missions:
+  - enemyInfos:
+    - id: 1
+      _name: "Enemy1"
+      level: 0
+      obstacles: 0
+    - id: 2
+      _name: "Enemy1"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "beerus"
+      level: 0
+      obstacles: 0
+  - enemyInfos:
+    - id: 1
+      _name: "Enemy1"
+      level: 0
+      obstacles: 0
+    - id: 2
+      _name: "Enemy2"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "frieza"
+      level: 0
+      obstacles: 0
+  - enemyInfos:
+    - id: 1
+      _name: "Enemy1"
+      level: 0
+      obstacles: 0
+    - id: 2
+      _name: "Enemy2"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "frieza"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "taopaipai"
+      level: 0
+      obstacles: 1
+  - enemyInfos:
+    - id: 1
+      _name: "Enemy2"
+      level: 0
+      obstacles: 0
+    - id: 2
+      _name: "Enemy3"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "Enemy3"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "17"
+      level: 0
+      obstacles: 0
+  - enemyInfos:
+    - id: 1
+      _name: "taopaipai"
+      level: 0
+      obstacles: 1
+    - id: 2
+      _name: "Enemy3"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "beerus"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "frieza1"
+      level: 0
+      obstacles: 2
+  - enemyInfos:
+    - id: 1
+      _name: "17"
+      level: 0
+      obstacles: 0
+    - id: 2
+      _name: "Enemy3"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "frieza"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "Cell"
+      level: 0
+      obstacles: 0
+  - enemyInfos:
+    - id: 1
+      _name: "17"
+      level: 0
+      obstacles: 0
+    - id: 2
+      _name: "Enemy3"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "frieza"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "Enemy3"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "frieza2"
+      level: 0
+      obstacles: 3
+  - enemyInfos:
+    - id: 1
+      _name: "Enemy3"
+      level: 0
+      obstacles: 0
+    - id: 2
+      _name: "burter"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "frieza"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "Enemy3"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "drgero"
+      level: 0
+      obstacles: 0
+  - enemyInfos:
+    - id: 1
+      _name: "frieza"
+      level: 0
+      obstacles: 0
+    - id: 2
+      _name: "Enemy3"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "burter"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "17"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "janemba"
+      level: 0
+      obstacles: 0
+  - enemyInfos:
+    - id: 1
+      _name: "burter"
+      level: 0
+      obstacles: 0
+    - id: 2
+      _name: "Enemy3"
+      level: 0
+      obstacles: 2
+    - id: 3
+      _name: "frieza"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "Enemy4"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "jeice"
+      level: 0
+      obstacles: 2
+  - enemyInfos:
+    - id: 1
+      _name: "drgero"
+      level: 0
+      obstacles: 0
+    - id: 2
+      _name: "Enemy4"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "17"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "Enemy5"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "cell2"
+      level: 0
+      obstacles: 0
+  - enemyInfos:
+    - id: 1
+      _name: "burter2"
+      level: 0
+      obstacles: 1
+    - id: 2
+      _name: "Enemy5"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "frieza2"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "Enemy4"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "majinbuu"
+      level: 0
+      obstacles: 3
+  - enemyInfos:
+    - id: 1
+      _name: "beerus"
+      level: 0
+      obstacles: 0
+    - id: 2
+      _name: "Enemy5"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "17"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "Enemy4"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "taopaipai2"
+      level: 0
+      obstacles: 0
+  - enemyInfos:
+    - id: 1
+      _name: "frieza"
+      level: 0
+      obstacles: 3
+    - id: 2
+      _name: "Enemy5"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "cell"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "burter2"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "picolo"
+      level: 0
+      obstacles: 1
+  - enemyInfos:
+    - id: 1
+      _name: "taopaipai2"
+      level: 0
+      obstacles: 0
+    - id: 2
+      _name: "Enemy6"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "beerus"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "jeice"
+      level: 0
+      obstacles: 2
+    - id: 3
+      _name: "Shin"
+      level: 0
+      obstacles: 0
+  - enemyInfos:
+    - id: 1
+      _name: "Enemy6"
+      level: 0
+      obstacles: 0
+    - id: 2
+      _name: "beerus2"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "Enemy5"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "172"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "zamasu"
+      level: 0
+      obstacles: 0
+  - enemyInfos:
+    - id: 1
+      _name: "Enemy4"
+      level: 0
+      obstacles: 0
+    - id: 2
+      _name: "picolo"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "Enemy6"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "cell"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "janemba2"
+      level: 0
+      obstacles: 0
+  - enemyInfos:
+    - id: 1
+      _name: "jeice"
+      level: 0
+      obstacles: 0
+    - id: 2
+      _name: "Enemy6"
+      level: 0
+      obstacles: 1
+    - id: 3
+      _name: "picolo"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "zamasu"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "drgero3"
+      level: 0
+      obstacles: 1
+  - enemyInfos:
+    - id: 1
+      _name: "cell"
+      level: 0
+      obstacles: 0
+    - id: 2
+      _name: "Enemy5"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "drgero3"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "majinbuu"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "cell2"
+      level: 0
+      obstacles: 0
+  - enemyInfos:
+    - id: 1
+      _name: "Enemy6"
+      level: 0
+      obstacles: 0
+    - id: 2
+      _name: "cell2"
+      level: 0
+      obstacles: 1
+    - id: 3
+      _name: "drgero3"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "Enemy6"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "taopaipai2"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "janemba3"
+      level: 0
+      obstacles: 3
+  - enemyInfos:
+    - id: 1
+      _name: "picolo"
+      level: 0
+      obstacles: 1
+    - id: 2
+      _name: "frieza1"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "drgero3"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "Enemy6"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "taopaipai2"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "jeice2"
+      level: 0
+      obstacles: 2
+  - enemyInfos:
+    - id: 1
+      _name: "burter2"
+      level: 0
+      obstacles: 0
+    - id: 2
+      _name: "jeice"
+      level: 0
+      obstacles: 1
+    - id: 3
+      _name: "drgero3"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "shin"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "zamasu2"
+      level: 0
+      obstacles: 0
+  - enemyInfos:
+    - id: 1
+      _name: "Enemy6"
+      level: 0
+      obstacles: 0
+    - id: 2
+      _name: "cell3"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "drgero3"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "zamasu2"
+      level: 0
+      obstacles: 2
+    - id: 3
+      _name: "shin2"
+      level: 0
+      obstacles: 0
+  - enemyInfos:
+    - id: 1
+      _name: "Enemy6"
+      level: 0
+      obstacles: 0
+    - id: 2
+      _name: "172"
+      level: 0
+      obstacles: 1
+    - id: 3
+      _name: "jeice2"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "frieza2"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "taopaipai2"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "zamasu3"
+      level: 0
+      obstacles: 3
+  - enemyInfos:
+    - id: 1
+      _name: "zamasu"
+      level: 0
+      obstacles: 0
+    - id: 2
+      _name: "jeice"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "cell3"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "taopaipai2"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "majinbuu"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "shin3"
+      level: 0
+      obstacles: 0
+  - enemyInfos:
+    - id: 1
+      _name: "majinbuu"
+      level: 0
+      obstacles: 1
+    - id: 2
+      _name: "cell2"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "picolo"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "Enemy6"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "picolo3"
+      level: 0
+      obstacles: 2
+  - enemyInfos:
+    - id: 1
+      _name: "Enemy6"
+      level: 0
+      obstacles: 0
+    - id: 2
+      _name: "cell2"
+      level: 0
+      obstacles: 1
+    - id: 3
+      _name: "drgero3"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "picolo2"
+      level: 0
+      obstacles: 3
+    - id: 3
+      _name: "taopaipai2"
+      level: 0
+      obstacles: 1
+  - enemyInfos:
+    - id: 1
+      _name: "172"
+      level: 0
+      obstacles: 0
+    - id: 2
+      _name: "beerus2"
+      level: 0
+      obstacles: 1
+    - id: 3
+      _name: "drgero3"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "frieza2"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "taopaipai2"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "jeice3"
+      level: 0
+      obstacles: 3
+  - enemyInfos:
+    - id: 1
+      _name: "drgero3"
+      level: 0
+      obstacles: 0
+    - id: 2
+      _name: "cell3"
+      level: 0
+      obstacles: 3
+    - id: 3
+      _name: "shin2"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "Enemy6"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "taopaipai2"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "majinbuu3"
+      level: 0
+      obstacles: 1
+  - enemyInfos:
+    - id: 1
+      _name: "Enemy6"
+      level: 0
+      obstacles: 0
+    - id: 2
+      _name: "cell3"
+      level: 0
+      obstacles: 1
+    - id: 3
+      _name: "drgero3"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "shin3"
+      level: 0
+      obstacles: 0
+    - id: 3
+      _name: "taopaipai3"
+      level: 0
+      obstacles: 2
