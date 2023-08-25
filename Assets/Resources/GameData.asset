@@ -13,23 +13,23 @@ MonoBehaviour:
   m_Name: GameData
   m_EditorClassIdentifier: 
   namePre: GameData01072019
-  coin: 96118
-  highScore: 620
+  coin: 95307
+  highScore: 3074
   ArcheryId: 0
-  missionNum: 2
+  missionNum: 665
   numHealing: 0
   numProtect: 0
-  numFireArrow: 0
+  numFireArrow: 2
   numX3: 0
   numSpin: 0
-  heroEquiped: songoku
-  numEnemyKill: 6
-  numWatchVideo: 0
-  numEarnGolds: 100218
+  heroEquiped: Vegeta
+  numEnemyKill: 63
+  numWatchVideo: 5
+  numEarnGolds: 102271
   numUseProtect: 0
   unlockCharacter: 0
-  unlockArchery: 0
-  numKillBoss: 2
+  unlockArchery: 1
+  numKillBoss: 10
   musicVolume: 1
   soundVolume: 1
   is_vibrate: 1
