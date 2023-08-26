@@ -44,10 +44,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _coreDataInfo:
-    _isRemoveAds: 0
+    _isRemoveAds: 1
     _isEnableSound: 1
     _isEnableMusic: 1
-    _isEnableVibrate: 1
+    _isEnableVibrate: 0
 --- !u!1 &309023921918171497
 GameObject:
   m_ObjectHideFlags: 0

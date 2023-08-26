@@ -3,50 +3,51 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: db03c6c0d6259710662c727caa98c4fb, type: 3}
-  m_Name: "AchievementData"
+  m_Name: AchievementData
   m_EditorClassIdentifier: 
-  namePre: "achievement01072019"
+  namePre: achievement01072019
   achievements:
-  - nameArchie: "Mission 1"
-    description: "Earn Coin"
+  - nameArchie: Mission 1
+    description: Earn Coin
     target: 0
-    current: 0
+    current: 101701
     achievementInfos:
     - valueTargets: 500
       giftAchis: 0
       giftValue: 5
-      statusAchis: 0
+      statusAchis: 2
     - valueTargets: 1500
       giftAchis: 0
       giftValue: 15
-      statusAchis: 0
+      statusAchis: 2
     - valueTargets: 3000
       giftAchis: 0
       giftValue: 50
-      statusAchis: 0
+      statusAchis: 2
     - valueTargets: 5000
       giftAchis: 0
       giftValue: 200
-      statusAchis: 0
+      statusAchis: 2
     - valueTargets: 10000
       giftAchis: 0
       giftValue: 500
-      statusAchis: 0
-  - nameArchie: "Mission 2"
-    description: "Kill Enemy"
+      statusAchis: 2
+  - nameArchie: Mission 2
+    description: Kill Enemy
     target: 1
-    current: 0
+    current: 45
     achievementInfos:
     - valueTargets: 10
       giftAchis: 0
       giftValue: 20
-      statusAchis: 0
+      statusAchis: 1
     - valueTargets: 25
       giftAchis: 0
       giftValue: 50
@@ -63,15 +64,15 @@ MonoBehaviour:
       giftAchis: 0
       giftValue: 1500
       statusAchis: 0
-  - nameArchie: "Mission 3"
-    description: "Kill Boss"
+  - nameArchie: Mission 3
+    description: Kill Boss
     target: 2
-    current: 0
+    current: 10
     achievementInfos:
     - valueTargets: 5
       giftAchis: 0
       giftValue: 25
-      statusAchis: 0
+      statusAchis: 1
     - valueTargets: 10
       giftAchis: 0
       giftValue: 50
@@ -88,10 +89,10 @@ MonoBehaviour:
       giftAchis: 0
       giftValue: 300
       statusAchis: 0
-  - nameArchie: "Mission 4"
-    description: "Watch Video"
+  - nameArchie: Mission 4
+    description: Watch Video
     target: 3
-    current: 0
+    current: 4
     achievementInfos:
     - valueTargets: 5
       giftAchis: 0
