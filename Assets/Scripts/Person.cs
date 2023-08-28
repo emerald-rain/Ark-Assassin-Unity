@@ -118,12 +118,52 @@ public class Person : E_MonoBehaviour
 
 	public AudioClip audio_die;
 
+	public void ProgComplex()
+	{
+		gameManager = FindObjectOfType<GameManager>();
+		int score = gameManager.score;
+		float coefficient = 0.3f;
+		float minValue = 1f;
+
+		if (score > 0) {
+			coefficient = 0.2f;
+			minValue = 120f;
+			betweenTurnAtackMin = 4f;
+			betweenTurnAtackMax = 8f;
+		}
+		if (score > 4000) {
+			coefficient = 0.15f;
+			minValue = 120f;
+			betweenTurnAtackMin = 2f;
+			betweenTurnAtackMax = 8f;
+		}
+		if (score > 8000) {
+			coefficient = 0.1f;
+			minValue = 1200f;
+			betweenTurnAtackMin = 2f;
+			betweenTurnAtackMax = 4f;
+		}
+		
+		float calculatedHP = Mathf.Max(score * coefficient, minValue);
+
+		HP = Mathf.RoundToInt(calculatedHP);
+		HP_current = HP;
+
+		Debug.Log("Score: "+ score + "Coefficient: "+ coefficient + " HP: "+ HP + " HP_current: "+ HP_current);
+		Debug.Log("AttackMIN: " + betweenTurnAtackMin + "AttackMAX: " + betweenTurnAtackMax);
+
+	}
+
+
 	public virtual void init()
 	{
 		rid1.mass = 20f;
 		rid2.mass = 20f;
 		numArrow = 1;
 		HP = ((!is_Boss) ? HP_before : (HP_before * 2));
+
+		ProgComplex();
+
 		if (arrows.Length == 0)
 		{
 			arrows = new Arrow[numArrow];

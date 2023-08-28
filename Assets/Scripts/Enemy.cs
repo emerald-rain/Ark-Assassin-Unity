@@ -14,6 +14,8 @@ public class Enemy : Person
 
 	public bool addFireArrowSkill;
 
+	public float HP_Current { get; set; }
+
 	public override void init()
 	{
 		base.init();
@@ -206,9 +208,10 @@ public class Enemy : Person
 			float angle = Vector2.Angle(-gameManager.hero.transform.position + base.transform.position, Vector2.up);
 			float distance = Vector2.Distance(base.transform.position, gameManager.hero.transform.position);
 			int rd = UnityEngine.Random.Range(0, 100);
+			Debug.Log(rd + "midle" + rateHit);
 			if (rd <= rateHit)
 			{
-				angleFire = angle + UnityEngine.Random.Range(0f - distance, distance * 1.8f);
+				angleFire = angle + UnityEngine.Random.Range(0f - distance, distance * 1.7f);
 				force = 10f;
 			}
 			else

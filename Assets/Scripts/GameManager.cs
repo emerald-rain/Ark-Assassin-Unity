@@ -59,7 +59,7 @@ public class GameManager : E_MonoBehaviour
 
 	public GameObject rewardlevelPass;
 
-	private int score;
+	public int score;
 
 	private int coin;
 
@@ -253,6 +253,7 @@ public class GameManager : E_MonoBehaviour
 			obstaclesBase = null;
 		}
 		currentRound++;
+		Person personInstance = new Person();
 		if (currentRound <= currentMission.enemyInfos.Length - 1)
 		{
 			if (ObjectPooling.ins.getEnemy(currentMission.enemyInfos[currentRound]._name) != null)
