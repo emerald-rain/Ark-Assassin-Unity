@@ -208,7 +208,7 @@ public class Enemy : Person
 			int rd = UnityEngine.Random.Range(0, 100);
 			if (rd <= rateHit)
 			{
-				angleFire = angle + UnityEngine.Random.Range(0f - distance, distance * 1.8f);
+				angleFire = angle + UnityEngine.Random.Range(0f - distance, distance * 1.7f);
 				force = 10f;
 			}
 			else

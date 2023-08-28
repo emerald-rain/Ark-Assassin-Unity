@@ -59,7 +59,7 @@ public class GameManager : E_MonoBehaviour
 
 	public GameObject rewardlevelPass;
 
-	private int score;
+	public int score;
 
 	private int coin;
 
