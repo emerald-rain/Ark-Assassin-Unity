@@ -10,6 +10,7 @@ public class GameManager : E_MonoBehaviour
 
 	[Header("------ Camera ------")]
 	public GameObject _camera;
+	public PlayfabManager PlayfabManager;
 
 	public Animator camAnim;
 
@@ -493,6 +494,7 @@ public class GameManager : E_MonoBehaviour
 			lineDot.gameObject.SetActive(value: false);
 		}
 		saveData();
+		PlayfabManager.SendLeaderboard(score);
 		delayFunction(3f, delegate
 		{
 			ui_Controller.onShowContinue();
