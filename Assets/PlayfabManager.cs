@@ -1,37 +1,17 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using PlayFab;
 using PlayFab.ClientModels;
 using TMPro;
+using UnityEngine.UI;
 
 
 public class PlayfabManager : MonoBehaviour
 {
+    [Header("Leaderboard")]
     public GameObject rowPrefab;
     public Transform rowsParent;
-
-    void Start()
-    {
-        Login();
-    }
-
-    void Login() {
-        var request = new LoginWithCustomIDRequest {
-            CustomId = SystemInfo.deviceUniqueIdentifier,
-            CreateAccount = true
-        };
-        PlayFabClientAPI.LoginWithCustomID(request, OnSuccess, OnError);
-    }
-
-    void OnSuccess(LoginResult result) {
-        Debug.Log("Successful login/account create!");
-    }
-
-    void OnError(PlayFabError error) {
-        Debug.Log("Error while logging in/creating account!");
-        Debug.Log(error.GenerateErrorReport());
-    }
 
     public void SendLeaderboard(int score) {
         var request = new UpdatePlayerStatisticsRequest {
@@ -47,6 +27,10 @@ public class PlayfabManager : MonoBehaviour
 
     void OnLeaderboardUpdate(UpdatePlayerStatisticsResult result) {
         Debug.Log("Successfull leaderboard sent");
+    }
+
+    void OnError(PlayFabError error) {
+        Debug.Log(error.GenerateErrorReport());
     }
 
     public void GetLeaderboard() {
@@ -67,8 +51,8 @@ public class PlayfabManager : MonoBehaviour
         foreach (var item in result.Leaderboard) {
             GameObject newGo = Instantiate(rowPrefab, rowsParent);
             TextMeshProUGUI[] texts = newGo.GetComponentsInChildren<TextMeshProUGUI>();
-            texts[0].text = item.Position.ToString();
-            texts[1].text = item.PlayFabId;
+            texts[0].text = (item.Position + 1).ToString();
+            texts[1].text = item.DisplayName;
             texts[2].text = item.StatValue.ToString();
 
             Debug.Log(item.Position + " " + item.PlayFabId + " " + item.StatValue);
