@@ -19,8 +19,8 @@ public class LoginSystemScript : MonoBehaviour
     {
         var request = new RegisterPlayFabUserRequest()
         {
-            DisplayName = discordUsername.text, // display name in players list
-            Username = discordUsername.text, // username in profile explorer
+            DisplayName = (discordUsername.text + GenerateUserNameNumbers()), // display name in players list
+            Username = (discordUsername.text + GenerateUserNameNumbers()), // username in profile explorer
             Password = GeneratePassword(),
 
             Email = string.IsNullOrEmpty(address.text) ? (address.text + GeneratePassword()) : (address.text + GeneratePassword())
@@ -33,12 +33,20 @@ public class LoginSystemScript : MonoBehaviour
 
     public static string GeneratePassword()
     {
-        string[] domains = { "random", "example", "test", "myemail", "yourdomain" }; // Список возможных доменов
+        string[] domains = { "gmail", "mail"}; // Список возможных доменов
         System.Random random = new System.Random(); // Используем System.Random
         int firstIndex = random.Next(domains.Length); // Случайный выбор первой части домена
         int secondIndex = random.Next(1000, 10000); // Случайный выбор четырехзначного числа
 
-        return $"@{domains[firstIndex]}{secondIndex}.com"; // Добавляем "@" перед доменом
+        return $"fix@{domains[firstIndex]}{secondIndex}.com"; // Добавляем "@" перед доменом
+    }
+
+    public static string GenerateUserNameNumbers()
+    {
+        System.Random random = new System.Random(); // Используем System.Random
+        int usernameNumbers = random.Next(1000, 10000); // Случайный выбор четырехзначного числа
+
+        return usernameNumbers.ToString();
     }
 
     public void OnRegisterSuccess(RegisterPlayFabUserResult result) {
