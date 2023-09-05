@@ -17,34 +17,35 @@ public class LoginSystemScript : MonoBehaviour
 
     public void Register()
     {
-        var request = new RegisterPlayFabUserRequest()
+        if (!string.IsNullOrEmpty(discordUsername.text)) // if discord username is not empty
         {
-            DisplayName = (discordUsername.text + GenerateUserNameNumbers()), // display name in players list
-            Username = (discordUsername.text + GenerateUserNameNumbers()), // username in profile explorer
-            Password = GeneratePassword(),
+            var request = new RegisterPlayFabUserRequest() // make a request to register user
+            {
+                DisplayName = (discordUsername.text + GenerateUserNameNumbers()), // display name in players list
+                Username = (discordUsername.text + GenerateUserNameNumbers()), // username in profile explorer
+                Password = GeneratePassword(),
 
-            Email = string.IsNullOrEmpty(address.text) ? (address.text + GeneratePassword()) : (address.text + GeneratePassword())
+                Email = string.IsNullOrEmpty(address.text) ? (address.text + GeneratePassword()) : (address.text + GeneratePassword())
 
-        };
+            };
 
-        PlayFabClientAPI.RegisterPlayFabUser(request, OnRegisterSuccess, OnError);
-        Debug.Log("Generated Password: " + GeneratePassword()); // Выводим пароль в консоль
+            PlayFabClientAPI.RegisterPlayFabUser(request, OnRegisterSuccess, OnError);
+            Debug.Log("Generated Password: " + GeneratePassword());
+        }
     }
 
-    public static string GeneratePassword()
-    {
-        string[] domains = { "gmail", "mail"}; // Список возможных доменов
-        System.Random random = new System.Random(); // Используем System.Random
-        int firstIndex = random.Next(domains.Length); // Случайный выбор первой части домена
-        int secondIndex = random.Next(1000, 10000); // Случайный выбор четырехзначного числа
+    public static string GeneratePassword() {
+        string[] domains = { "gmail", "mail"};
+        System.Random random = new System.Random();
+        int firstIndex = random.Next(domains.Length);
+        int secondIndex = random.Next(1000, 10000);
 
-        return $"fix@{domains[firstIndex]}{secondIndex}.com"; // Добавляем "@" перед доменом
+        return $"fix@{domains[firstIndex]}{secondIndex}.com";
     }
 
-    public static string GenerateUserNameNumbers()
-    {
-        System.Random random = new System.Random(); // Используем System.Random
-        int usernameNumbers = random.Next(1000, 10000); // Случайный выбор четырехзначного числа
+    public static string GenerateUserNameNumbers() {
+        System.Random random = new System.Random();
+        int usernameNumbers = random.Next(1000, 10000);
 
         return usernameNumbers.ToString();
     }
