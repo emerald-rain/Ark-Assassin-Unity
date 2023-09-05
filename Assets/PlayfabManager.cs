@@ -52,7 +52,7 @@ public class PlayfabManager : MonoBehaviour
             GameObject newGo = Instantiate(rowPrefab, rowsParent);
             TextMeshProUGUI[] texts = newGo.GetComponentsInChildren<TextMeshProUGUI>();
             texts[0].text = (item.Position + 1).ToString();
-            texts[1].text = item.DisplayName;
+            texts[1].text = item.DisplayName.Substring(0, item.DisplayName.Length - 4);
             texts[2].text = item.StatValue.ToString();
 
             Debug.Log(item.Position + " " + item.PlayFabId + " " + item.StatValue);
