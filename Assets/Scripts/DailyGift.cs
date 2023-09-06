@@ -41,9 +41,9 @@ public class DailyGift : PopupBase
 
 	private void Start()
 	{
-		init();
-		rednodeActive();
-		base.gameObject.SetActive(value: false);
+		// init();
+		// rednodeActive();
+		// base.gameObject.SetActive(value: false);
 	}
 
 	private void rednodeActive()

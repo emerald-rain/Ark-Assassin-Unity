@@ -1,11 +1,10 @@
 fileFormatVersion: 2
 guid: 6b78dca2a9e9449c83d0f4d4633d1fb9
-timeCreated: 1569857375
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300008: goku_9 (3)
-  serializedVersion: 5
+  externalObjects: {}
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -23,6 +22,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -45,18 +46,21 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 9
   spritePivot: {x: 0.8278473, y: 0.05258039}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -99,7 +103,7 @@ TextureImporter:
     - - {x: 43.5, y: -47.5}
       - {x: 40.5, y: -51.5}
       - {x: 43.5, y: 12.5}
-    physicsShape:    
+    physicsShape:
     - - {x: 39.5, y: 6.5}
       - {x: 35.5, y: 22.5}
       - {x: 21.5, y: 31.5}
@@ -119,12 +123,14 @@ TextureImporter:
       - {x: 43.5, y: -29.5}
       - {x: 43.5, y: -7.5}
     bones: []
-    spriteID:
+    spriteID: 9b8852f1df69a6242a0fabb5d58a8af0
     vertices: []
     indices: 
     edges: []
     weights: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

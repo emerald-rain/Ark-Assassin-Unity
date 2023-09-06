@@ -1,11 +1,10 @@
 fileFormatVersion: 2
 guid: e4d98819c1a44bd49058bbc17fe63101
-timeCreated: 1569857344
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: dau_goku
-  serializedVersion: 5
+  externalObjects: {}
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -23,6 +22,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -45,18 +46,21 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 9
   spritePivot: {x: 0.5, y: 0.12}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 82.35294
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -96,7 +100,7 @@ TextureImporter:
     - - {x: 63, y: 50.82355}
       - {x: 63, y: -64.17647}
       - {x: 54, y: 63.82354}
-    physicsShape:    
+    physicsShape:
     - - {x: 63, y: -17.17647}
       - {x: 63, y: 19.82354}
       - {x: 62, y: 24.82354}
@@ -119,12 +123,14 @@ TextureImporter:
       - {x: 38, y: -54.17647}
       - {x: 54, y: -40.17647}
     bones: []
-    spriteID:
+    spriteID: 8299dca4d16ddd44382a0602177182f8
     vertices: []
     indices: 
     edges: []
     weights: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

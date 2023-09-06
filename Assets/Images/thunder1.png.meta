@@ -1,15 +1,14 @@
 fileFormatVersion: 2
 guid: 6284565e293945e886f103bc2bec8884
-timeCreated: 1569857386
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300008: thunder1_4
-    21300002: thunder1_1
     21300000: thunder1_0
-    21300006: thunder1_3
+    21300002: thunder1_1
     21300004: thunder1_2
-  serializedVersion: 5
+    21300006: thunder1_3
+    21300008: thunder1_4
+  externalObjects: {}
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -27,6 +26,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -49,18 +50,21 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -102,13 +106,14 @@ TextureImporter:
       - - {x: -128, y: -64}
         - {x: 128, y: 64}
         - {x: 128, y: -64}
-      physicsShape:      
+      physicsShape:
       - - {x: -128, y: 64}
         - {x: -128, y: -64}
         - {x: 128, y: -64}
         - {x: 128, y: 64}
       tessellationDetail: 0
-      spriteID: 
+      bones: []
+      spriteID: 01bf9d508c53c6d4ebaec17d7f56ea39
       vertices: []
       indices: 
       edges: []
@@ -131,13 +136,14 @@ TextureImporter:
       - - {x: -128, y: -64}
         - {x: 128, y: 64}
         - {x: 128, y: -64}
-      physicsShape:      
+      physicsShape:
       - - {x: -128, y: 64}
         - {x: -128, y: -64}
         - {x: 128, y: -64}
         - {x: 128, y: 64}
       tessellationDetail: 0
-      spriteID: 
+      bones: []
+      spriteID: df300489be4d353438216da1966d5257
       vertices: []
       indices: 
       edges: []
@@ -160,13 +166,14 @@ TextureImporter:
       - - {x: -128, y: -64}
         - {x: 128, y: 64}
         - {x: 128, y: -64}
-      physicsShape:      
+      physicsShape:
       - - {x: -128, y: 64}
         - {x: -128, y: -64}
         - {x: 128, y: -64}
         - {x: 128, y: 64}
       tessellationDetail: 0
-      spriteID: 
+      bones: []
+      spriteID: 849fc14310bafb246bb8fcc8fedd36d0
       vertices: []
       indices: 
       edges: []
@@ -189,13 +196,14 @@ TextureImporter:
       - - {x: -128, y: -64}
         - {x: 128, y: 64}
         - {x: 128, y: -64}
-      physicsShape:      
+      physicsShape:
       - - {x: -128, y: 64}
         - {x: -128, y: -64}
         - {x: 128, y: -64}
         - {x: 128, y: 64}
       tessellationDetail: 0
-      spriteID: 
+      bones: []
+      spriteID: 25640c83ceb700648a844954009dfbac
       vertices: []
       indices: 
       edges: []
@@ -218,13 +226,14 @@ TextureImporter:
       - - {x: -128, y: -64}
         - {x: 128, y: 64}
         - {x: 128, y: -64}
-      physicsShape:      
+      physicsShape:
       - - {x: -128, y: 64}
         - {x: -128, y: -64}
         - {x: 128, y: -64}
         - {x: 128, y: 64}
       tessellationDetail: 0
-      spriteID: 
+      bones: []
+      spriteID: f140cb3bf136bfb4e84ea75c41dd0733
       vertices: []
       indices: 
       edges: []
@@ -232,12 +241,14 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID:
+    spriteID: 
     vertices: []
     indices: 
     edges: []
     weights: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

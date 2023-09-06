@@ -1,11 +1,10 @@
 fileFormatVersion: 2
 guid: 5b10ee0b2f0a438e9343211736c5cb1f
-timeCreated: 1569857378
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300016: vegeta_9 (9)
-  serializedVersion: 5
+  externalObjects: {}
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -23,6 +22,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -45,18 +46,21 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 9
   spritePivot: {x: 0.9098173, y: 0.04914742}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 60.95238
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -99,7 +103,7 @@ TextureImporter:
     - - {x: 39.31429, y: -29}
       - {x: 39.31429, y: -64}
       - {x: 16.31429, y: 42.00001}
-    physicsShape:    
+    physicsShape:
     - - {x: 27.31429, y: -8.999996}
       - {x: 18.31429, y: 13}
       - {x: 4.314283, y: 32}
@@ -118,12 +122,14 @@ TextureImporter:
       - {x: 39.31429, y: -43}
       - {x: 37.31429, y: -37}
     bones: []
-    spriteID:
+    spriteID: a131d488bb3adbc4fa37571fec6a2cdf
     vertices: []
     indices: 
     edges: []
     weights: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

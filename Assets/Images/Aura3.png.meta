@@ -1,14 +1,13 @@
 fileFormatVersion: 2
 guid: cc05cf71b04f43048cd09a9a749ad737
-timeCreated: 1569857391
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300006: Aura3_3
     21300000: Aura3_0
     21300002: Aura3_1
     21300004: Aura3_2
-  serializedVersion: 5
+    21300006: Aura3_3
+  externalObjects: {}
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -26,6 +25,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -48,18 +49,21 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -434,7 +438,7 @@ TextureImporter:
       - - {x: 89.5, y: -105.9866}
         - {x: 89.5, y: -109.9866}
         - {x: 87.5, y: -105.9866}
-      physicsShape:      
+      physicsShape:
       - - {x: -27.5, y: -68.98663}
         - {x: -25.5, y: -70.98663}
         - {x: -22.5, y: -69.98663}
@@ -543,7 +547,8 @@ TextureImporter:
         - {x: -22.5, y: 8.013367}
         - {x: -22.5, y: 20.01337}
       tessellationDetail: 0
-      spriteID: 
+      bones: []
+      spriteID: 0c719c7dd934e2744bae22c5e68a1120
       vertices: []
       indices: 
       edges: []
@@ -761,7 +766,7 @@ TextureImporter:
       - - {x: -49.5, y: 4.019196}
         - {x: -49.5, y: 4.019196}
         - {x: -41.5, y: 88.0192}
-      physicsShape:      
+      physicsShape:
       - - {x: -6.5, y: -43.9808}
         - {x: -20.5, y: -31.9808}
         - {x: -26.5, y: -15.9808}
@@ -855,7 +860,8 @@ TextureImporter:
         - {x: 18.5, y: 54.01919}
         - {x: 15.5, y: 53.0192}
       tessellationDetail: 0
-      spriteID: 
+      bones: []
+      spriteID: ca553aa102881524bbb43c0df1149abb
       vertices: []
       indices: 
       edges: []
@@ -989,7 +995,7 @@ TextureImporter:
       - - {x: -25.5, y: -86.53806}
         - {x: -26.5, y: -86.53806}
         - {x: -25.5, y: -86.53806}
-      physicsShape:      
+      physicsShape:
       - - {x: -45.5, y: -69.53806}
         - {x: -38.5, y: -73.53806}
         - {x: -34.5, y: -73.53806}
@@ -1066,7 +1072,8 @@ TextureImporter:
         - {x: -48.5, y: -23.53806}
         - {x: -51.5, y: -24.53806}
       tessellationDetail: 0
-      spriteID: 
+      bones: []
+      spriteID: d7b69e76c200e5942ae016fddb88cbfe
       vertices: []
       indices: 
       edges: []
@@ -1371,7 +1378,7 @@ TextureImporter:
       - - {x: -58.5, y: -109.4619}
         - {x: -57.5, y: -112.4619}
         - {x: -62.5, y: -109.4619}
-      physicsShape:      
+      physicsShape:
       - - {x: 30.5, y: -74.46194}
         - {x: 25.5, y: -80.46194}
         - {x: 26.5, y: -83.46194}
@@ -1459,7 +1466,8 @@ TextureImporter:
         - {x: -15.5, y: -4.461937}
         - {x: -8.5, y: -0.461937}
       tessellationDetail: 0
-      spriteID: 
+      bones: []
+      spriteID: fca24a7a9d54aa94baca7e8517289701
       vertices: []
       indices: 
       edges: []
@@ -1467,12 +1475,14 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID:
+    spriteID: 
     vertices: []
     indices: 
     edges: []
     weights: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

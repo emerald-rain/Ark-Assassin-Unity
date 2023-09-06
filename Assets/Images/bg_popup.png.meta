@@ -1,11 +1,10 @@
 fileFormatVersion: 2
 guid: 65afb31d1fa24938a251a7d3e8f18596
-timeCreated: 1569857390
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: bg_popup
-  serializedVersion: 5
+  externalObjects: {}
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -23,6 +22,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -45,18 +46,21 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 9
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -120,19 +124,21 @@ TextureImporter:
     - - {x: 413, y: 311}
       - {x: 413, y: -311}
       - {x: 413, y: 312}
-    physicsShape:    
+    physicsShape:
     - - {x: -415, y: 316}
       - {x: -415, y: -310}
       - {x: -411, y: -316}
       - {x: 415, y: -316}
       - {x: 415, y: 316}
     bones: []
-    spriteID:
+    spriteID: 8246441c4d157f5439ac81d7d4125d68
     vertices: []
     indices: 
     edges: []
     weights: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

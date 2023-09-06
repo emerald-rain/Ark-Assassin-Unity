@@ -1,11 +1,10 @@
 fileFormatVersion: 2
 guid: 090a08866f8c4a90b0803425d2ba0037
-timeCreated: 1569857385
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: D_Smoke_02
-  serializedVersion: 5
+  externalObjects: {}
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -23,6 +22,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -45,18 +46,21 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 9
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -87,7 +91,7 @@ TextureImporter:
     - - {x: -128, y: -128}
       - {x: 128, y: 128}
       - {x: 128, y: -128}
-    physicsShape:    
+    physicsShape:
     - - {x: 90, y: -33}
       - {x: 90, y: 4}
       - {x: 85.99999, y: 20}
@@ -119,12 +123,14 @@ TextureImporter:
       - {x: 40, y: -72.99999}
       - {x: 78, y: -52}
     bones: []
-    spriteID:
+    spriteID: 96d8822cee27ac14f9327e642cc65bbc
     vertices: []
     indices: 
     edges: []
     weights: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -1,11 +1,10 @@
 fileFormatVersion: 2
 guid: 00e7291457e34a4f8401c61bab85ab0c
-timeCreated: 1569857381
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: light 1
-  serializedVersion: 5
+  externalObjects: {}
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -23,6 +22,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -45,18 +46,21 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 9
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 19.01793
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -114,7 +118,7 @@ TextureImporter:
     - - {x: 108.9007, y: -95.00001}
       - {x: 46.9007, y: -114}
       - {x: 108.9007, y: 57.00002}
-    physicsShape:    
+    physicsShape:
     - - {x: 16.9007, y: -42.99999}
       - {x: 13.9007, y: -34.99999}
       - {x: 10.9007, y: -20.99999}
@@ -195,12 +199,14 @@ TextureImporter:
       - {x: 23.9007, y: -81.99999}
       - {x: 21.9007, y: -64.99999}
     bones: []
-    spriteID:
+    spriteID: d96bee2b793c77d4995117ff37c8ffd5
     vertices: []
     indices: 
     edges: []
     weights: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

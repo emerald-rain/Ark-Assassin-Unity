@@ -1,11 +1,10 @@
 fileFormatVersion: 2
 guid: 0cc24b84927a46f4933dc6f903aa027a
-timeCreated: 1569857385
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: shop bow popup box 4
-  serializedVersion: 5
+  externalObjects: {}
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -23,6 +22,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -45,18 +46,21 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 9
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -189,7 +193,7 @@ TextureImporter:
     - - {x: -158.5, y: 145.5}
       - {x: -158.5, y: -145.5}
       - {x: -161.5, y: 143.5}
-    physicsShape:    
+    physicsShape:
     - - {x: 167.5, y: 135.5}
       - {x: 148.5, y: 159.5}
       - {x: 129.5, y: 167.5}
@@ -205,12 +209,14 @@ TextureImporter:
       - {x: 163.5, y: -142.5}
       - {x: 167.5, y: -129.5}
     bones: []
-    spriteID:
+    spriteID: 90dfb3556ab7c794cbb17269adde1e36
     vertices: []
     indices: 
     edges: []
     weights: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -1,11 +1,10 @@
 fileFormatVersion: 2
 guid: 080b4c5450654bc6aed6bc21a7873eca
-timeCreated: 1569857353
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: archery_12
-  serializedVersion: 5
+  externalObjects: {}
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -23,6 +22,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -45,18 +46,21 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 9
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -96,7 +100,7 @@ TextureImporter:
     - - {x: 57.5, y: -111}
       - {x: 11.5, y: -182}
       - {x: 57.5, y: 104}
-    physicsShape:    
+    physicsShape:
     - - {x: -20.5, y: -139}
       - {x: -6.5, y: -110}
       - {x: 5.5, y: -107}
@@ -158,12 +162,14 @@ TextureImporter:
       - {x: -9.5, y: -158}
       - {x: -22.5, y: -153}
     bones: []
-    spriteID:
+    spriteID: 68b23b7188a45804abcf72d8601ace70
     vertices: []
     indices: 
     edges: []
     weights: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
