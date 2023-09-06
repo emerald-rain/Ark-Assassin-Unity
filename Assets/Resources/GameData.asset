@@ -12,24 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53663bf653d36e17b812f7f6e33112e2, type: 3}
   m_Name: GameData
   m_EditorClassIdentifier: 
-  namePre: GameData01072019
-  coin: 95307
-  highScore: 3074
+  namePre: GameData228
+  coin: 22
+  highScore: 1280
   ArcheryId: 0
-  missionNum: 665
-  numHealing: 0
-  numProtect: 0
-  numFireArrow: 2
-  numX3: 0
+  missionNum: 0
+  numHealing: 1
+  numProtect: 4
+  numFireArrow: 4
+  numX3: 1
   numSpin: 0
-  heroEquiped: Vegeta
-  numEnemyKill: 63
-  numWatchVideo: 5
-  numEarnGolds: 102271
+  heroEquiped: Songoku
+  numEnemyKill: 11
+  numWatchVideo: 0
+  numEarnGolds: 41
   numUseProtect: 0
   unlockCharacter: 0
-  unlockArchery: 1
-  numKillBoss: 10
+  unlockArchery: 2
+  numKillBoss: 12
   musicVolume: 1
   soundVolume: 1
   is_vibrate: 1
