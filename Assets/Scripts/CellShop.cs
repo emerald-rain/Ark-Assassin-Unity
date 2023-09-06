@@ -45,7 +45,7 @@ public class CellShop : MonoBehaviour
 		{
 			btnBuy.SetActive(value: true);
 			btnEquip.SetActive(value: false);
-			btnWatchVideo.SetActive(value: true);
+			btnWatchVideo.SetActive(value: false);
 			btnInfo.SetActive(value: false);
 		}
 		btnEquiped.SetActive(value: false);

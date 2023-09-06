@@ -3,18 +3,19 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ee721b71c351cd7fb01ec8af704a87f8, type: 3}
-  m_Name: "ArcheryData"
+  m_Name: ArcheryData
   m_EditorClassIdentifier: 
-  namePre: "Archery01072019"
+  namePre: Archery228
   listArchery:
   - id: 0
-    _name: "Strong Bow"
+    _name: Strong Bow
     level: 0
     bought: 1
     prince: 280
@@ -24,7 +25,7 @@ MonoBehaviour:
     defense: 5
     hp: 10
   - id: 1
-    _name: "The Light Bow"
+    _name: The Light Bow
     level: 0
     bought: 0
     prince: 300
@@ -34,9 +35,9 @@ MonoBehaviour:
     defense: 6
     hp: 12
   - id: 2
-    _name: "Death Bow"
+    _name: Death Bow
     level: 0
-    bought: 0
+    bought: 1
     prince: 300
     numWatchVideo: 0
     numWatchVideoToGetFree: 3
@@ -44,7 +45,7 @@ MonoBehaviour:
     defense: 0
     hp: 15
   - id: 3
-    _name: "Bat Bow"
+    _name: Bat Bow
     level: 0
     bought: 0
     prince: 325
@@ -54,9 +55,9 @@ MonoBehaviour:
     defense: 10
     hp: 12
   - id: 4
-    _name: "Phoenix Bow"
+    _name: Phoenix Bow
     level: 0
-    bought: 0
+    bought: 1
     prince: 350
     numWatchVideo: 0
     numWatchVideoToGetFree: 4
@@ -64,27 +65,27 @@ MonoBehaviour:
     defense: 8
     hp: 10
   - id: 5
-    _name: "Demon King"
+    _name: Demon King
     level: 0
     bought: 0
     prince: 350
     numWatchVideo: 0
-    numWatchVideoToGetFree: 4
+    numWatchVideoToGetFree: 63
     dame: 15
     defense: 8
     hp: 5
   - id: 6
-    _name: "Sunshine"
+    _name: Sunshine
     level: 0
-    bought: 0
+    bought: 1
     prince: 400
-    numWatchVideo: 0
-    numWatchVideoToGetFree: 4
+    numWatchVideo: 1
+    numWatchVideoToGetFree: 0
     dame: 10
     defense: 10
     hp: 12
   - id: 7
-    _name: "Competitor"
+    _name: Competitor
     level: 0
     bought: 0
     prince: 425
@@ -94,7 +95,7 @@ MonoBehaviour:
     defense: 5
     hp: 5
   - id: 8
-    _name: "Vampire"
+    _name: Vampire
     level: 0
     bought: 0
     prince: 425
@@ -104,7 +105,7 @@ MonoBehaviour:
     defense: 15
     hp: 12
   - id: 9
-    _name: "Royal Protector"
+    _name: Royal Protector
     level: 0
     bought: 0
     prince: 500
@@ -114,7 +115,7 @@ MonoBehaviour:
     defense: 25
     hp: 10
   - id: 10
-    _name: "Snake Fang"
+    _name: Snake Fang
     level: 0
     bought: 0
     prince: 500
@@ -124,7 +125,7 @@ MonoBehaviour:
     defense: 10
     hp: 10
   - id: 11
-    _name: "Dino Bow"
+    _name: Dino Bow
     level: 0
     bought: 0
     prince: 500
@@ -134,7 +135,7 @@ MonoBehaviour:
     defense: 9
     hp: 10
   - id: 12
-    _name: "Cold Steel"
+    _name: Cold Steel
     level: 0
     bought: 0
     prince: 550
@@ -144,7 +145,7 @@ MonoBehaviour:
     defense: 10
     hp: 10
   - id: 13
-    _name: "Underworld"
+    _name: Underworld
     level: 0
     bought: 0
     prince: 550
@@ -154,7 +155,7 @@ MonoBehaviour:
     defense: 5
     hp: 30
   - id: 14
-    _name: "Frozen Bow"
+    _name: Frozen Bow
     level: 0
     bought: 0
     prince: 650
@@ -164,7 +165,7 @@ MonoBehaviour:
     defense: 10
     hp: 15
   - id: 15
-    _name: "Emerald Bow"
+    _name: Emerald Bow
     level: 0
     bought: 0
     prince: 650
@@ -174,7 +175,7 @@ MonoBehaviour:
     defense: 5
     hp: 30
   - id: 16
-    _name: "No Way Bow"
+    _name: No Way Bow
     level: 0
     bought: 0
     prince: 650
@@ -184,7 +185,7 @@ MonoBehaviour:
     defense: 5
     hp: 20
   - id: 17
-    _name: "Future Bow"
+    _name: Future Bow
     level: 0
     bought: 0
     prince: 800
@@ -194,7 +195,7 @@ MonoBehaviour:
     defense: 5
     hp: 25
   - id: 18
-    _name: "Dragon Eye"
+    _name: Dragon Eye
     level: 0
     bought: 0
     prince: 800
@@ -204,7 +205,7 @@ MonoBehaviour:
     defense: 15
     hp: 15
   - id: 19
-    _name: "Hell Bow"
+    _name: Hell Bow
     level: 0
     bought: 0
     prince: 850
@@ -224,11 +225,11 @@ MonoBehaviour:
     defense: 20
     hp: 25
   - id: 21
-    _name: "Pine Bow"
+    _name: Pine Bow
     level: 0
-    bought: 0
+    bought: 1
     prince: 1000
-    numWatchVideo: 0
+    numWatchVideo: 1
     numWatchVideoToGetFree: 10
     dame: 10
     defense: 25
