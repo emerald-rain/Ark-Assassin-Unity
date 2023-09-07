@@ -80,7 +80,7 @@ public class UIController : E_MonoBehaviour
 
 	public void setScore(int score)
 	{
-		txtScore.text = score + string.Empty;
+		txtScore.text = "Score: " + score + string.Empty;
 	}
 
 	public void setPerHpBoss(float per)
