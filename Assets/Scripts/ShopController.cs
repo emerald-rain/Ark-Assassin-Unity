@@ -138,7 +138,7 @@ public class ShopController : PopupBase
 		{
 			if (prince > gameManager.getCoin())
 			{
-				NotificationPopup.ins.onShow("Not Enough Coin! \n Do you want go to Shop?", delegate
+				NotificationPopup.ins.onShow("Sorry, not enough coins", delegate
 				{
 					btn_tab(1);
 				});
