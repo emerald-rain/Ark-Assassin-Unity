@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee721b71c351cd7fb01ec8af704a87f8, type: 3}
   m_Name: ArcheryData
   m_EditorClassIdentifier: 
-  namePre: Archery228
+  namePre: Archery3
   listArchery:
   - id: 0
     _name: Strong Bow
     level: 0
-    bought: 1
-    prince: 280
+    bought: 0
+    prince: 3000
     numWatchVideo: 0
     numWatchVideoToGetFree: 3
     dame: 5
@@ -28,7 +28,7 @@ MonoBehaviour:
     _name: The Light Bow
     level: 0
     bought: 0
-    prince: 300
+    prince: 3200
     numWatchVideo: 0
     numWatchVideoToGetFree: 3
     dame: 5
@@ -37,8 +37,8 @@ MonoBehaviour:
   - id: 2
     _name: Death Bow
     level: 0
-    bought: 1
-    prince: 300
+    bought: 0
+    prince: 3500
     numWatchVideo: 0
     numWatchVideoToGetFree: 3
     dame: 10
@@ -48,7 +48,7 @@ MonoBehaviour:
     _name: Bat Bow
     level: 0
     bought: 0
-    prince: 325
+    prince: 3900
     numWatchVideo: 0
     numWatchVideoToGetFree: 4
     dame: 5
@@ -57,8 +57,8 @@ MonoBehaviour:
   - id: 4
     _name: Phoenix Bow
     level: 0
-    bought: 1
-    prince: 350
+    bought: 0
+    prince: 4000
     numWatchVideo: 0
     numWatchVideoToGetFree: 4
     dame: 10
@@ -68,7 +68,7 @@ MonoBehaviour:
     _name: Demon King
     level: 0
     bought: 0
-    prince: 350
+    prince: 4000
     numWatchVideo: 0
     numWatchVideoToGetFree: 63
     dame: 15
@@ -77,8 +77,8 @@ MonoBehaviour:
   - id: 6
     _name: Sunshine
     level: 0
-    bought: 1
-    prince: 400
+    bought: 0
+    prince: 4500
     numWatchVideo: 1
     numWatchVideoToGetFree: 0
     dame: 10
@@ -88,7 +88,7 @@ MonoBehaviour:
     _name: Competitor
     level: 0
     bought: 0
-    prince: 425
+    prince: 4200
     numWatchVideo: 0
     numWatchVideoToGetFree: 5
     dame: 20
@@ -98,17 +98,17 @@ MonoBehaviour:
     _name: Vampire
     level: 0
     bought: 0
-    prince: 425
+    prince: 4500
     numWatchVideo: 0
     numWatchVideoToGetFree: 5
     dame: 5
     defense: 15
     hp: 12
-  - id: 9
+  - id: 5700
     _name: Royal Protector
     level: 0
     bought: 0
-    prince: 500
+    prince: 5700
     numWatchVideo: 0
     numWatchVideoToGetFree: 5
     dame: 5
@@ -118,7 +118,7 @@ MonoBehaviour:
     _name: Snake Fang
     level: 0
     bought: 0
-    prince: 500
+    prince: 5000
     numWatchVideo: 0
     numWatchVideoToGetFree: 5
     dame: 15
@@ -128,7 +128,7 @@ MonoBehaviour:
     _name: Dino Bow
     level: 0
     bought: 0
-    prince: 500
+    prince: 5000
     numWatchVideo: 0
     numWatchVideoToGetFree: 5
     dame: 16
@@ -138,7 +138,7 @@ MonoBehaviour:
     _name: Cold Steel
     level: 0
     bought: 0
-    prince: 550
+    prince: 6000
     numWatchVideo: 0
     numWatchVideoToGetFree: 6
     dame: 18
@@ -148,7 +148,7 @@ MonoBehaviour:
     _name: Underworld
     level: 0
     bought: 0
-    prince: 550
+    prince: 7000
     numWatchVideo: 0
     numWatchVideoToGetFree: 6
     dame: 8
@@ -158,7 +158,7 @@ MonoBehaviour:
     _name: Frozen Bow
     level: 0
     bought: 0
-    prince: 650
+    prince: 6666
     numWatchVideo: 0
     numWatchVideoToGetFree: 7
     dame: 15
@@ -168,7 +168,7 @@ MonoBehaviour:
     _name: Emerald Bow
     level: 0
     bought: 0
-    prince: 650
+    prince: 7500
     numWatchVideo: 0
     numWatchVideoToGetFree: 7
     dame: 10
@@ -178,7 +178,7 @@ MonoBehaviour:
     _name: No Way Bow
     level: 0
     bought: 0
-    prince: 650
+    prince: 7500
     numWatchVideo: 0
     numWatchVideoToGetFree: 7
     dame: 20
@@ -188,7 +188,7 @@ MonoBehaviour:
     _name: Future Bow
     level: 0
     bought: 0
-    prince: 800
+    prince: 9000
     numWatchVideo: 0
     numWatchVideoToGetFree: 8
     dame: 25
@@ -198,7 +198,7 @@ MonoBehaviour:
     _name: Dragon Eye
     level: 0
     bought: 0
-    prince: 800
+    prince: 7500
     numWatchVideo: 0
     numWatchVideoToGetFree: 8
     dame: 15
@@ -208,7 +208,7 @@ MonoBehaviour:
     _name: Hell Bow
     level: 0
     bought: 0
-    prince: 850
+    prince: 10000
     numWatchVideo: 0
     numWatchVideoToGetFree: 9
     dame: 20
@@ -218,7 +218,7 @@ MonoBehaviour:
     _name: 
     level: 0
     bought: 0
-    prince: 1000
+    prince: 14000
     numWatchVideo: 0
     numWatchVideoToGetFree: 10
     dame: 25
@@ -227,8 +227,8 @@ MonoBehaviour:
   - id: 21
     _name: Pine Bow
     level: 0
-    bought: 1
-    prince: 1000
+    bought: 0
+    prince: 14000
     numWatchVideo: 1
     numWatchVideoToGetFree: 10
     dame: 10
