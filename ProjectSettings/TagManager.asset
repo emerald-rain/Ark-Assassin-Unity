@@ -21,7 +21,7 @@ TagManager:
   - Coin
   - Platform
   - Character
-  - 
+  - PostProcessing
   - 
   - 
   - 
@@ -43,18 +43,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: "Default"
+  - name: Default
     uniqueID: 0
     locked: 0
-  - name: "Character"
+  - name: Character
     uniqueID: 2429093119
     locked: 0
-  - name: "Archery"
+  - name: Archery
     uniqueID: 1982753771
     locked: 0
-  - name: "UI"
+  - name: UI
     uniqueID: 2904795845
     locked: 0
-  - name: "Notify"
+  - name: Notify
     uniqueID: 215049789
     locked: 0
