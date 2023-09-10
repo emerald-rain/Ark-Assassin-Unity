@@ -700,9 +700,9 @@ public class GameManager : E_MonoBehaviour
 			initTool();
 			hero.OnEnableProtect();
 		}
-		else if (coin >= 100)
+		else if (score >= 1000)
 		{
-			addCoin(-100);
+			addScore(-1000); // 1000 score for the protect supply
 			initTool();
 			hero.OnEnableProtect();
 		}
@@ -719,9 +719,9 @@ public class GameManager : E_MonoBehaviour
 				initTool();
 				hero.x3Arrow();
 			}
-			else if (coin >= 100)
+			else if (score >= 500)
 			{
-				addCoin(-100);
+				addScore(-500); // 500 score for the x3 arrow supply
 				initTool();
 				hero.x3Arrow();
 			}
@@ -739,9 +739,9 @@ public class GameManager : E_MonoBehaviour
 				initTool();
 				hero.healing();
 			}
-			else if (coin >= 100)
+			else if (score >= 3000)
 			{
-				addCoin(-100);
+				addScore(-3000); // 3000 score for the healing supply
 				initTool();
 				hero.healing();
 			}
@@ -757,9 +757,9 @@ public class GameManager : E_MonoBehaviour
 			initTool();
 			hero.addFireArrow();
 		}
-		else if (coin >= 100)
+		else if (score >= 500)
 		{
-			addCoin(-100);
+			addScore(-500); // 500 score for the fire arrow supply
 			initTool();
 			hero.addFireArrow();
 		}
