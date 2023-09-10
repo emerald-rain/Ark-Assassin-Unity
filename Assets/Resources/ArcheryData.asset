@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee721b71c351cd7fb01ec8af704a87f8, type: 3}
   m_Name: ArcheryData
   m_EditorClassIdentifier: 
-  namePre: Archery3
+  namePre: Archery4
   listArchery:
   - id: 0
     _name: Strong Bow
     level: 0
-    bought: 0
+    bought: 1
     prince: 3000
     numWatchVideo: 0
     numWatchVideoToGetFree: 3
