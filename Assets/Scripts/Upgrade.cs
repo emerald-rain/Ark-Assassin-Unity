@@ -284,10 +284,7 @@ public class Upgrade : PopupBase
 			}
 			else
 			{
-				onShowNotify("You not enough coin. Do you want go to shop?", delegate
-				{
-					openShopCoin();
-				});
+				onShowNotify("Sorry, not enough coins.");
 			}
 		}
 	}
