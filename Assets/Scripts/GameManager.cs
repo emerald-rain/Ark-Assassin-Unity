@@ -493,6 +493,12 @@ public class GameManager : E_MonoBehaviour
 			dotEnd.SetActive(value: false);
 			lineDot.gameObject.SetActive(value: false);
 		}
+
+		dataHolder.gameData.numHealing = 0; // reset num healing
+		dataHolder.gameData.numFireArrow = 0; // reset num fire arrow
+		dataHolder.gameData.numProtect = 0; // reset num fire arrow
+		dataHolder.gameData.numX3 = 0; // reset num fire arrow
+
 		saveData();
 		PlayfabManager.SendLeaderboard(score);
 		delayFunction(3f, delegate
