@@ -503,7 +503,7 @@ public class GameManager : E_MonoBehaviour
 		PlayfabManager.SendLeaderboard(score);
 		delayFunction(3f, delegate
 		{
-			ui_Controller.onShowContinue();
+			ui_Controller.btn_cancelContinue();
 		});
 		hero.OnDisableProtect();
 		SoundManager.ins.bg_audioSource.Stop();
