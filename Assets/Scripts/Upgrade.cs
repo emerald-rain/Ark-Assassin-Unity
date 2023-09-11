@@ -291,9 +291,7 @@ public class Upgrade : PopupBase
 
 	private void openShopCoin()
 	{
-		notifyUpgrade.gameObject.SetActive(value: false);
-		onClose();
-		gameManager.ui_Controller.btn_openShopCoin();
+		print("tried to open shop coin");
 	}
 
 	private void onUnlockHero()
@@ -316,10 +314,7 @@ public class Upgrade : PopupBase
 		}
 		else
 		{
-			onShowNotify("You not enough coin, Do you wan go to shop?", delegate
-			{
-				openShopCoin();
-			});
+			onShowNotify("Not enough coins to unlock this character.");
 		}
 	}
 
