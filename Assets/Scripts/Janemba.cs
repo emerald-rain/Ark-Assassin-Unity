@@ -34,7 +34,7 @@ public class Janemba : Enemy
 		{
 			protect.SetActive(value: true);
 			theFirst = false;
-			Invoke("disableProtect", 5f);
+			Invoke("disableProtect", 3f);
 		}
 	}
 
