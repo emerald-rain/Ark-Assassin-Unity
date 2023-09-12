@@ -51,12 +51,12 @@ public class ShopController : PopupBase
 
 	private int[] coinUpgradeArchery = new int[6]
 	{
+		100,
+		200,
+		400,
 		500,
-		1000,
-		2000,
-		3000,
-		4000,
-		5000
+		600,
+		900
 	};
 
 	public UIController uIController;

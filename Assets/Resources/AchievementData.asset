@@ -12,26 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db03c6c0d6259710662c727caa98c4fb, type: 3}
   m_Name: AchievementData
   m_EditorClassIdentifier: 
-  namePre: achievement7
+  namePre: achievement9
   achievements:
   - nameArchie: Collect Coins
-    description: 'Coin Collecting Community Assignment #1'
+    description: 'Mission to collect the maximum number of coins!'
     target: 0
-    current: 87
+    current: 0
     achievementInfos:
-    - valueTargets: 10000
+    - valueTargets: 2000
       giftAchis: 0
       giftValue: 5
       statusAchis: 2
-    - valueTargets: 10000
+    - valueTargets: 4000
       giftAchis: 0
       giftValue: 15
       statusAchis: 2
-    - valueTargets: 10000
+    - valueTargets: 6000
       giftAchis: 0
       giftValue: 50
       statusAchis: 2
-    - valueTargets: 10000
+    - valueTargets: 8000
       giftAchis: 0
       giftValue: 200
       statusAchis: 2
@@ -40,19 +40,19 @@ MonoBehaviour:
       giftValue: 500
       statusAchis: 2
   - nameArchie: kill enemys
-    description: 'Enemy Assassination Community Assignment #1'
+    description: 'Mission to deactivate the maximum number of robots!'
     target: 1
-    current: 22
+    current: 0
     achievementInfos:
-    - valueTargets: 2000
+    - valueTargets: 500
       giftAchis: 0
       giftValue: 20
       statusAchis: 2
-    - valueTargets: 2000
+    - valueTargets: 1000
       giftAchis: 0
       giftValue: 50
       statusAchis: 0
-    - valueTargets: 2000
+    - valueTargets: 1500
       giftAchis: 0
       giftValue: 100
       statusAchis: 0
@@ -60,7 +60,7 @@ MonoBehaviour:
       giftAchis: 0
       giftValue: 300
       statusAchis: 0
-    - valueTargets: 2000
+    - valueTargets: 2500
       giftAchis: 0
       giftValue: 1500
       statusAchis: 0
