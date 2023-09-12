@@ -15,6 +15,7 @@ public class HeroData : E_ScriptableObject
 		}
 		else
 		{
+			// writePre(); // to write new prices
 			readAndInsert();
 		}
 	}
