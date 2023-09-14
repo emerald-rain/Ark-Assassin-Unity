@@ -2,7 +2,7 @@ fileFormatVersion: 2
 guid: 9f86f8f343ec41f2a37f78e76f311154
 TextureImporter:
   fileIDToRecycleName:
-    21300008: than 2
+    21300000: than 1
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -32,7 +32,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -45,8 +45,8 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 0
   alignment: 9
-  spritePivot: {x: 0.565874, y: 0.1258153}
-  spritePixelsToUnits: 62.68657
+  spritePivot: {x: 0.5710706, y: 0.1308641}
+  spritePixelsToUnits: 82.9
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -85,35 +85,38 @@ TextureImporter:
     serializedVersion: 2
     sprites: []
     outline:
-    - - {x: -21, y: -63.37313}
-      - {x: -21, y: 63.62685}
-      - {x: -18, y: -64.37313}
-    - - {x: 16, y: 63.62685}
-      - {x: -18, y: -64.37313}
-      - {x: -21, y: 63.62685}
+    - - {x: -21, y: 0.6268654}
+      - {x: -21, y: 62.62688}
+      - {x: -17, y: -55.37313}
+    - - {x: -16, y: 63.62685}
+      - {x: -17, y: -55.37313}
+      - {x: -21, y: 62.62688}
+    - - {x: -8.999997, y: -64.37313}
+      - {x: -17, y: -55.37313}
+      - {x: -16, y: 63.62685}
+    - - {x: 21, y: 63.62685}
+      - {x: -8.999997, y: -64.37313}
+      - {x: -16, y: 63.62685}
     - - {x: 16, y: -64.37313}
-      - {x: -18, y: -64.37313}
-      - {x: 16, y: 63.62685}
-    - - {x: 21, y: -56.37313}
+      - {x: -8.999997, y: -64.37313}
+      - {x: 21, y: 63.62685}
+    - - {x: 21, y: -62.37313}
       - {x: 16, y: -64.37313}
-      - {x: 16, y: 63.62685}
-    - - {x: 21, y: 62.62688}
-      - {x: 21, y: -56.37313}
-      - {x: 16, y: 63.62685}
+      - {x: 21, y: 63.62685}
     physicsShape:
-    - - {x: 17, y: 63.62687}
-      - {x: -17, y: 63.62687}
-      - {x: -21, y: 60.62686}
-      - {x: -21, y: 16.62687}
-      - {x: -20, y: 6.626869}
-      - {x: -16, y: -59.37313}
-      - {x: -8, y: -64.37313}
-      - {x: 10, y: -64.37313}
+    - - {x: -14, y: 63.62687}
+      - {x: -21, y: 54.62686}
+      - {x: -21, y: 18.62687}
+      - {x: -16, y: -42.37313}
+      - {x: -13, y: -57.37313}
+      - {x: -6, y: -63.37313}
+      - {x: -4, y: -64.37313}
+      - {x: 14, y: -64.37313}
       - {x: 21, y: -54.37313}
-      - {x: 21, y: 17.62687}
-      - {x: 20, y: 35.62687}
+      - {x: 21, y: 53.62687}
+      - {x: 12, y: 63.62687}
     bones: []
-    spriteID: a4829cdc8c948ff4d91f7a93341a09bc
+    spriteID: 9228430c39742cd409e51f5eb1f1065c
     vertices: []
     indices: 
     edges: []
