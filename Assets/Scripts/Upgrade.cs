@@ -90,6 +90,8 @@ public class Upgrade : PopupBase
 		}
 		heroInfo = getinfo(heroParrent[1].name.ToLower());
 		init();
+
+		Debug.Log(heroInfo.level); // check the hero lvl
 	}
 
 	private HeroPoints getinfo(string _name)
@@ -260,6 +262,8 @@ public class Upgrade : PopupBase
 			notifyUpgrade.gameObject.SetActive(value: false);
 			if (gameManager.getCoin() >= coinUpgrade)
 			{
+				Debug.Log("Hero upgrade;");
+
 				updateting = true;
 				gameManager.addCoin(-coinUpgrade);
 				gameManager.saveData();
@@ -268,6 +272,11 @@ public class Upgrade : PopupBase
 				gameManager.hero.requestDataHero();
 				gameManager.hero.requestSpriteHero();
 				effectUpgrade.SetActive(value: true);
+
+				dataHolder.heroData.writePre(); // one more time
+				Debug.Log("Hero upgrade happend. Should save it;");
+				Debug.Log("Hero level now: " + heroInfo.level);
+
 				delayFunction(2f, delegate
 				{
 					effectUpgrade.SetActive(value: false);
