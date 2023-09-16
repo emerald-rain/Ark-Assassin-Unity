@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ab857b55e729b4563214da578ef1ff8, type: 3}
   m_Name: HeroData
   m_EditorClassIdentifier: 
-  namePre: HeroData22778
+  namePre: HeroData16
   heroPoints:
   - nameHero: Songoku
     valueHero: 0
@@ -26,41 +26,41 @@ MonoBehaviour:
     - hp: 320
       dame: 110
       defense: 8
-      coinUpgrade: 200
+      coinUpgrade: 100
     - hp: 350
       dame: 115
       defense: 10
-      coinUpgrade: 200
+      coinUpgrade: 100
     - hp: 375
       dame: 120
       defense: 15
-      coinUpgrade: 250
+      coinUpgrade: 100
     - hp: 400
       dame: 125
       defense: 15
-      coinUpgrade: 300
+      coinUpgrade: 100
     - hp: 420
       dame: 130
       defense: 20
-      coinUpgrade: 350
+      coinUpgrade: 100
     - hp: 450
       dame: 135
       defense: 22
-      coinUpgrade: 400
+      coinUpgrade: 100
     - hp: 480
       dame: 135
       defense: 25
-      coinUpgrade: 450
+      coinUpgrade: 100
     - hp: 500
       dame: 140
       defense: 28
-      coinUpgrade: 500
+      coinUpgrade: 100
     - hp: 550
       dame: 150
       defense: 35
       coinUpgrade: 600
   - nameHero: Vegeta
-    valueHero: 1000
+    valueHero: 100
     isUnlock: 0
     level: 0
     points:
@@ -71,36 +71,36 @@ MonoBehaviour:
     - hp: 375
       dame: 85
       defense: 5
-      coinUpgrade: 200
+      coinUpgrade: 100
     - hp: 400
       dame: 90
       defense: 10
-      coinUpgrade: 200
+      coinUpgrade: 110
     - hp: 420
       dame: 95
       defense: 15
-      coinUpgrade: 250
+      coinUpgrade: 120
     - hp: 450
       dame: 105
       defense: 15
-      coinUpgrade: 300
+      coinUpgrade: 130
     - hp: 475
       dame: 110
       defense: 20
-      coinUpgrade: 350
+      coinUpgrade: 140
     - hp: 520
       dame: 115
       defense: 25
-      coinUpgrade: 400
+      coinUpgrade: 150
     - hp: 550
       dame: 125
       defense: 30
-      coinUpgrade: 450
+      coinUpgrade: 160
     - hp: 600
       dame: 125
       defense: 35
-      coinUpgrade: 500
+      coinUpgrade: 170
     - hp: 650
       dame: 130
       defense: 40
-      coinUpgrade: 600
+      coinUpgrade: 180
