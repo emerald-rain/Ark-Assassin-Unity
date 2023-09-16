@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Hero : Person
 {
@@ -31,6 +32,11 @@ public class Hero : Person
 	public GameObject effectUpgradeArchery;
 
 	public GameObject effectContinue;
+
+	public int protectUsed; // number of protection used
+	public int healUsed; // number of headling used
+
+	public Text timeProtectText; // time of next protection
 
 	public override void init()
 	{
@@ -147,10 +153,18 @@ public class Hero : Person
 		}
 	}
 
-	public void OnEnableProtect()
+	public void OnEnableProtect() // calculate protection
 	{
-		timeLifeProtect = 10f;
-		protect.SetActive(value: true);
+		protectUsed++; // add one protection used
+		float[] timeValues = {9f, 8f, 7f, 6f, 5f, 4f, 3f, 2f, 1f}; // time of protection values
+		timeLifeProtect = protectUsed <= 9 ? timeValues[protectUsed - 1] : timeLifeProtect; // calculate time of protection
+		protect.SetActive(true); // activate protection
+		UpdateProtectTimeText();
+	}
+
+	public void UpdateProtectTimeText () {
+		Debug.Log("Should update protect: " + timeLifeProtect.ToString());
+		timeProtectText.text = timeLifeProtect.ToString() + "\nsec";
 	}
 
 	public void OnDisableProtect()
