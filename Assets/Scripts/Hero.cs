@@ -153,22 +153,25 @@ public class Hero : Person
 		}
 	}
 
-	public void OnEnableProtect() // calculate protection
+	public void OnEnableProtect()
 	{
-		protectUsed++; // add one protection used
-		float[] timeValues = {9f, 8f, 7f, 6f, 5f, 4f, 3f, 2f, 1f}; // time of protection values
-		timeLifeProtect = protectUsed <= 9 ? timeValues[protectUsed - 1] : timeLifeProtect; // calculate time of protection
-		protect.SetActive(true); // activate protection
+		protectUsed++;
+		float[] timeValues = { 9f, 8f, 7f, 6f, 5f, 4f, 3f, 2f, 0.3f };
+		timeLifeProtect = protectUsed <= 9 ? timeValues[protectUsed - 1] : 0.3f;
+		protect.SetActive(true);
 		UpdateProtectTimeText();
 	}
 
-	public void UpdateProtectTimeText () {
-		Debug.Log("Should update protect: " + timeLifeProtect.ToString());
-		timeProtectText.text = timeLifeProtect.ToString() + "\nsec";
+	public void UpdateProtectTimeText() {
+		Debug.Log("Should update protect: " + timeLifeProtect);
+		timeProtectText.text = timeLifeProtect + "\nsec";
 	}
 
-	public void OnDisableProtect()
-	{
+	public void protectTimeReset () {
+		protectUsed = 0; // reset protectUsed
+	}
+
+	public void OnDisableProtect() {
 		timeLifeProtect = 0f;
 	}
 
