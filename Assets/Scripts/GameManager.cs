@@ -499,6 +499,8 @@ public class GameManager : E_MonoBehaviour
 		dataHolder.gameData.numProtect = 0; // reset num fire arrow
 		dataHolder.gameData.numX3 = 0; // reset num fire arrow
 
+		hero.protectTimeReset(); // reset protect time
+
 		saveData();
 		PlayfabManager.SendLeaderboard(score);
 		delayFunction(3f, delegate
