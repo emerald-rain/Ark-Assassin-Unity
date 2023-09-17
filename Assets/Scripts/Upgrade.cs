@@ -119,9 +119,12 @@ public class Upgrade : PopupBase
 					txtValueUpgrade.text = heroInfo.points[heroInfo.level + 1].coinUpgrade + string.Empty;
 				}
 				imgLock.SetActive(value: false);
-				txtButtonUpgrade.gameObject.SetActive(value: true);
-				txtValueUpgrade.gameObject.SetActive(value: true);
-				txtButtonUpgrade_center.gameObject.SetActive(value: false);
+				txtButtonUpgrade.gameObject.SetActive(value: false); // disable button upgrade
+				txtValueUpgrade.gameObject.SetActive(value: false); // disable text value upgrade
+
+				// set equiped hero
+				txtButtonUpgrade_center.text = "EQUIPED";
+				txtButtonUpgrade_center.gameObject.SetActive(value: true);
 			}
 			else if (heroInfo.isUnlock)
 			{
@@ -245,7 +248,8 @@ public class Upgrade : PopupBase
 		}
 		else if (txtButtonUpgrade.text.ToLower().Equals("upgrade"))
 		{
-			onUpgrade();
+			// turn off hero upgrades
+			// onUpgrade();
 		}
 		else if (txtButtonUpgrade.text.ToLower().Equals("unlock"))
 		{
