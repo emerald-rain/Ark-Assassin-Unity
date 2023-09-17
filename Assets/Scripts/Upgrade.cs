@@ -119,9 +119,12 @@ public class Upgrade : PopupBase
 					txtValueUpgrade.text = heroInfo.points[heroInfo.level + 1].coinUpgrade + string.Empty;
 				}
 				imgLock.SetActive(value: false);
-				txtButtonUpgrade.gameObject.SetActive(value: true);
-				txtValueUpgrade.gameObject.SetActive(value: true);
-				txtButtonUpgrade_center.gameObject.SetActive(value: false);
+				txtButtonUpgrade.gameObject.SetActive(value: false); // disable button upgrade
+				txtValueUpgrade.gameObject.SetActive(value: false); // disable text value upgrade
+
+				// set equiped hero
+				txtButtonUpgrade_center.text = "EQUIPED";
+				txtButtonUpgrade_center.gameObject.SetActive(value: true);
 			}
 			else if (heroInfo.isUnlock)
 			{
@@ -136,13 +139,16 @@ public class Upgrade : PopupBase
 			else
 			{
 				imgEquiped.SetActive(value: false);
+
 				txtButtonUpgrade.text = "UNLOCK";
 				txtButtonUpgrade_center.text = "UNLOCK";
+				txtValueUpgrade.text = "100";
+
 				txtValueUpgrade.text = heroInfo.valueHero + string.Empty;
 				imgLock.SetActive(value: true);
-				txtButtonUpgrade.gameObject.SetActive(value: false);
-				txtValueUpgrade.gameObject.SetActive(value: false);
-				txtButtonUpgrade_center.gameObject.SetActive(value: true);
+				txtButtonUpgrade.gameObject.SetActive(value: true);
+				txtValueUpgrade.gameObject.SetActive(value: true);
+				txtButtonUpgrade_center.gameObject.SetActive(value: false);
 			}
 			slider_attack.fillAmount = (float)heroInfo.points[heroInfo.level].dame / (float)heroInfo.points[heroInfo.points.Length - 1].dame;
 			slider_defense.fillAmount = (float)heroInfo.points[heroInfo.level].defense / (float)heroInfo.points[heroInfo.points.Length - 1].defense;
@@ -245,7 +251,8 @@ public class Upgrade : PopupBase
 		}
 		else if (txtButtonUpgrade.text.ToLower().Equals("upgrade"))
 		{
-			onUpgrade();
+			// turn off hero upgrades
+			// onUpgrade();
 		}
 		else if (txtButtonUpgrade.text.ToLower().Equals("unlock"))
 		{
